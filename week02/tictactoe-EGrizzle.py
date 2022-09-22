@@ -69,6 +69,9 @@ def make_move(player, board, taken_squares):
             player: the current player. Should be a
                     value of either "x" or "o"
             board: the current board. Stored as an array.
+            taken_squares: an array containing the squares 
+                            that have already been taken by
+                            a player.
         Return: None.
     """
     already_taken = True
